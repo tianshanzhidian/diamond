@@ -11,8 +11,8 @@ public class WriteFileThread implements Runnable {
     }
 
     public void run() {
-        for(){
-
-        }
+//        for(){
+//
+//        }
     }
 }
