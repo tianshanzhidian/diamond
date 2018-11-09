@@ -48,7 +48,7 @@ public class WRFile {
 
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 //        File file = new File("src/main/resources/1.txt");
 //        try {
 //            read(file);
@@ -56,14 +56,25 @@ public class WRFile {
 //            e.printStackTrace();
 //        }
 
-        List<Person> peoples =new ArrayList<Person>();
+//        List<Person> peoples =new ArrayList<Person>();
+//
+//        for(int i=0;i<4000;i++){
+//            Person p = new Person();
+//            p.setName("hello"+i);
+//            p.setName(String.valueOf(i));
+//            peoples.add(p);
+//        }
+//        write(peoples);
+//        File f = new File("/Users/luolei/logs/pradar/default/","pradarDemo.log");
+//        if(!f.exists()){
+//            f.createNewFile();
+//        }
+        String s= "hello";
+        String s1 = "hello2";
+        StringBuilder stringBuilder = new StringBuilder();
+        stringBuilder.append(s).append("\n");
+        stringBuilder.append(s1).append("\n");
 
-        for(int i=0;i<40000000;i++){
-            Person p = new Person();
-            p.setName("hello"+i);
-            p.setName(String.valueOf(i));
-            peoples.add(p);
-        }
-        write(peoples);
+        System.out.println(stringBuilder.toString());
     }
 }
