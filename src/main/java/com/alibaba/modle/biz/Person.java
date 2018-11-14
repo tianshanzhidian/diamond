@@ -6,6 +6,7 @@ public class Person {
     private  String name;
     private String age;
     private Date date;
+    private long id;
 
     public String getName() {
         return name;
@@ -29,5 +30,13 @@ public class Person {
 
     public void setDate(Date date) {
         this.date = date;
+    }
+
+    public long getId() {
+        return id;
+    }
+
+    public void setId(long id) {
+        this.id = id;
     }
 }
