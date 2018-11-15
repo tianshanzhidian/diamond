@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5710555-5f0e-4594-b0ed-faec80700e2d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/modle/biz/File/FilePath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/modle/biz/thread/LogFileClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/modle/biz/thread/LogFileSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/modle/biz/thread/ThreadTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/alibaba/modle/biz/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/modle/biz/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alibaba/modle/biz/thread/ThreadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/modle/biz/thread/ThreadTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/alibaba/modle/biz/thread/ThreadTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/alibaba/modle/biz/thread/ThreadTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -49,14 +45,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3169" />
+          <entry key="java" value="3311" />
           <entry key="txt" value="26" />
           <entry key="xml" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3169" />
+          <entry key="JAVA" value="3311" />
           <entry key="PLAIN_TEXT" value="26" />
           <entry key="XML" value="14" />
         </counts>
@@ -107,8 +103,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/alibaba/modle/biz/thread/ThreadTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="409">
+              <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
+              <folding>
+                <element signature="e#448#757#0" expanded="true" />
+                <element signature="e#756#757#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -238,7 +238,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-480" />
-    <option name="y" value="-1057" />
+    <option name="y" value="-1039" />
     <option name="width" value="1440" />
     <option name="height" value="810" />
   </component>
@@ -266,7 +266,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542161571597" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542272546615" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -392,19 +392,19 @@
       <workItem from="1540784031457" duration="5631000" />
       <workItem from="1540819610599" duration="1601000" />
       <workItem from="1541406436863" duration="8082000" />
-      <workItem from="1541666162141" duration="11456000" />
+      <workItem from="1541666162141" duration="12943000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54830000" />
+    <option name="totallyTimeSpent" value="56317000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-480" y="-1057" width="1440" height="810" extended-state="0" />
+    <frame x="-480" y="-1039" width="1440" height="810" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49295774" visible="true" weight="0.27038628" />
-      <window_info id="Structure" order="1" sideWeight="0.5070422" side_tool="true" visible="true" weight="0.27038628" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49196786" visible="true" weight="0.27038628" />
+      <window_info id="Structure" order="1" sideWeight="0.50803214" side_tool="true" visible="true" weight="0.27038628" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -412,16 +412,16 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32959327" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30779943" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30640668" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3983629" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32789117" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32729805" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32469305" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32451254" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -821,8 +821,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/alibaba/modle/biz/thread/ThreadTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="409">
+          <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
+          <folding>
+            <element signature="e#448#757#0" expanded="true" />
+            <element signature="e#756#757#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
