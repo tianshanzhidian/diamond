@@ -21,32 +21,28 @@ public class Demo {
 //
 //        doSoming.DoThing();
 
-        StaticTest.sayHello();
-        Person person = new Person();
+//        StaticTest.sayHello();
+//        Person person = new Person();
+//
+//        person.setName("hello");
+//        person.setAge("12");
+//
+//
+//
+//        JsonTestObject object = new JsonTestObject();
+//        object.setPerson(person);
+//
+//
+//
+//        String str = JSON.toJSONString(object);
+//
+//        System.out.println(str);
+//
+//
+//        JsonTestObject object1  = JSON.parseObject(str,JsonTestObject.class);
+//        System.out.println(object1.getPerson().getName());
 
-        person.setName("hello");
-        person.setAge("12");
-
-
-
-        JsonTestObject object = new JsonTestObject();
-        object.setPerson(person);
-
-
-
-        String str = JSON.toJSONString(object);
-
-        System.out.println(str);
-
-
-        JsonTestObject object1  = JSON.parseObject(str,JsonTestObject.class);
-        System.out.println(object1.getPerson().getName());
-
-
-
-
-
-
+        sayHello();
 
     }
 
@@ -57,14 +53,11 @@ public class Demo {
 
     public static void sayHello(){
         try{
-            String a = null;
-            String b = "";
-            System.out.println(a.equals(b));
-        } catch(Exception e){
-            System.out.println("hello");
-            getStackTrace(e);
-            System.out.println(JSON.toJSONString(e.getStackTrace()));
-            System.out.println(getStackTrace(e));
+            Person p = null;
+            System.out.println(p.getName());
+        } catch(Throwable e){
+            System.out.println(JSON.toJSONString(e));
+
 //            e.printStackTrace();
         }
 

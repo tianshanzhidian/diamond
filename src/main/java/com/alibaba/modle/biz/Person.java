@@ -39,4 +39,28 @@ public class Person {
     public void setId(long id) {
         this.id = id;
     }
+
+
+    @Override
+    public boolean equals(Object object) {
+        if(object == this){
+            return true;
+        }
+        if(!(object instanceof Person)){
+            return false;
+        }
+        Person p = (Person)object;
+        if(id == p.getId()){
+            return true;
+        }
+        return false;
+    }
+
+//    @Override
+//    public int hashCode() {
+//        int result = 17;
+//        result += 31 * province.hashCode();
+//        result += 31 * city.hashCode();
+//        return result;
+//    }
 }
