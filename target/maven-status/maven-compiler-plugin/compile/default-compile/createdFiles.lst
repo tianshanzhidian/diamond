@@ -1,3 +1,4 @@
+com/alibaba/modle/biz/agent/SecondAgent.class
 com/alibaba/modle/trace/LogView$1.class
 com/alibaba/modle/biz/thread/ThreadTest.class
 com/alibaba/modle/trace/LogSvr.class
@@ -28,5 +29,6 @@ com/alibaba/modle/biz/ThreadLocals.class
 com/alibaba/modle/biz/Demo.class
 com/alibaba/modle/biz/StaticTest.class
 com/alibaba/modle/biz/string/StringTest.class
+com/alibaba/modle/biz/agent/App2.class
 com/alibaba/modle/biz/fastJson/FastJsonTest.class
 com/alibaba/modle/biz/Test1.class

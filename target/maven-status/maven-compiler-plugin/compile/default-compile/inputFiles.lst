@@ -1,6 +1,7 @@
 /Users/luolei/Documents/work/LearningTest/src/main/java/com/alibaba/modle/biz/Test2.java
 /Users/luolei/Documents/work/LearningTest/src/main/java/com/alibaba/modle/biz/string/StringTest.java
 /Users/luolei/Documents/work/LearningTest/src/main/java/com/alibaba/modle/biz/Main.java
+/Users/luolei/Documents/work/LearningTest/src/main/java/com/alibaba/modle/biz/agent/SecondAgent.java
 /Users/luolei/Documents/work/LearningTest/src/main/java/com/alibaba/modle/biz/thing/Test.java
 /Users/luolei/Documents/work/LearningTest/src/main/java/com/alibaba/modle/staticField/TraceClient.java
 /Users/luolei/Documents/work/LearningTest/src/main/java/com/alibaba/modle/biz/ThreadLocals.java
@@ -14,6 +15,7 @@
 /Users/luolei/Documents/work/LearningTest/src/main/java/com/alibaba/modle/biz/compress/SnappyUtil.java
 /Users/luolei/Documents/work/LearningTest/src/main/java/com/alibaba/modle/trace/LogSvr.java
 /Users/luolei/Documents/work/LearningTest/src/main/java/com/alibaba/modle/trace/LogView.java
+/Users/luolei/Documents/work/LearningTest/src/main/java/com/alibaba/modle/biz/agent/App2.java
 /Users/luolei/Documents/work/LearningTest/src/main/java/com/alibaba/modle/biz/thread/WriteFileThread.java
 /Users/luolei/Documents/work/LearningTest/src/main/java/com/alibaba/modle/biz/Test1.java
 /Users/luolei/Documents/work/LearningTest/src/main/java/com/alibaba/modle/biz/thread/LogFileClient.java
