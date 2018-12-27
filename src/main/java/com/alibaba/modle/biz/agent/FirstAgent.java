@@ -22,7 +22,7 @@ public class FirstAgent  implements ClassFileTransformer {
                 ctclass = ClassPool.getDefault().get(className);// 使用全称,用于取得字节码类<使用javassist>
                 CtMethod ctmethod = ctclass.getDeclaredMethod(methodName);// 得到这方法实例
                 ctmethod.insertBefore("System.out.println(11111111);");
-                ctmethod.insertAfter("System.out.println(11111111 end);");
+                ctmethod.insertAfter("System.out.println(22222);");
                 return ctclass.toBytecode();
             } catch (Exception e) {
                 System.out.println(e.getMessage());
