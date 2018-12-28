@@ -18,7 +18,9 @@ public class ThreadTest {
                 while(true){
                     System.out.println("hello");
                     try{
-                        Thread.sleep(timeInterval);
+//                        Thread.sleep(timeInterval);
+                        Thread.yield();
+                        System.out.println("sleep later");
                     }catch(Exception e){
 
                     }
