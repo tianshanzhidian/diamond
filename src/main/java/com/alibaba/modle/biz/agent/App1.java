@@ -12,45 +12,48 @@ import java.util.List;
 
 public class App1 {
     public static void main(String[] args) {
-//        Person p =new Person();
-//        p.setDate(new Date());
-//        p.setId(2);
-//        Person p1 =new Person();
-//        p1.setDate(new Date());
-//        p1.setId(2);
-//        List<Person> people = new ArrayList<>();
-//        people.add(p);
-//        people.add(p1);
-////        hello(p,null);
-////        hello1(p,"kitty");
+        Person p =new Person();
+        p.setDate(new Date());
+        p.setId(2);
+        Person p1 =new Person();
+        p1.setDate(new Date());
+        p1.setId(2);
+        List<Person> people = new ArrayList<>();
+        people.add(p);
+        people.add(p1);
+        hello(p,null);
+        hello1(p,"kitty");
+
+        AbstractTest abstractTest = new AbstractTestImpl();
+
+//        abstractTest.getDemo(p);
+        for(int i =0 ;i<10000;i++){
+            abstractTest.getDemo1(people);
+        }
+
+
+//        MsgModel msgModel = new MsgModel();
+//        MessageEntity messageEntity = new MessageEntity();
+//        messageEntity.setBusinessId("id:4");
+//        messageEntity.setTable("luolei_test_job_detail");
+//        messageEntity.setSchema("mysql");
+//        TraceInfo traceInfo = new TraceInfo();
+//        traceInfo.setBatchSeq(2);
+//        traceInfo.setFireTimestamp(1546412889710L);
+//        traceInfo.setRoute("1");
+//        traceInfo.setTraceId("15464128896670000000005");
+//        traceInfo.setTraceSeq(0);
+//        messageEntity.setTraceInfo(traceInfo);
+//        msgModel.setMessageEntity(messageEntity);
+//        TableTask tableTask = new TableTask();
+//        tableTask.setId("1");
 //
-//        AbstractTest abstractTest = new AbstractTestImpl();
+//        msgModel.setTableTask(tableTask);
+//        List<MsgModel> lists = new ArrayList<>();
+//        lists.add(msgModel);
 //
-////        abstractTest.getDemo(p);
-//        abstractTest.getDemo1(people);
-
-        MsgModel msgModel = new MsgModel();
-        MessageEntity messageEntity = new MessageEntity();
-        messageEntity.setBusinessId("id:4");
-        messageEntity.setTable("luolei_test_job_detail");
-        messageEntity.setSchema("mysql");
-        TraceInfo traceInfo = new TraceInfo();
-        traceInfo.setBatchSeq(2);
-        traceInfo.setFireTimestamp(1546412889710L);
-        traceInfo.setRoute("1");
-        traceInfo.setTraceId("15464128896670000000005");
-        traceInfo.setTraceSeq(0);
-        messageEntity.setTraceInfo(traceInfo);
-        msgModel.setMessageEntity(messageEntity);
-        TableTask tableTask = new TableTask();
-        tableTask.setId("1");
-
-        msgModel.setTableTask(tableTask);
-        List<MsgModel> lists = new ArrayList<>();
-        lists.add(msgModel);
-
-
-        cleanData(lists);
+//
+//        cleanData(lists);
 
 
 

@@ -31,5 +31,16 @@ public class ThreadTest {
         Thread thread = new Thread(runnable);
         thread.start();
 
+
+
+        Thread thread1 = new Thread(new HeartBeatRunnable());
+
+    }
+
+    private static class HeartBeatRunnable implements Runnable {
+        @Override
+        public void run() {
+
+        }
     }
 }
